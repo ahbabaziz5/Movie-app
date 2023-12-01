@@ -3,7 +3,7 @@ import Button from './Button'
 import Image from 'next/image'
 const Herosection = ({title}) => {
   return (
-    <div className='border-2 w-full h-96  flex justify-between items-center  bg-red-600'>
+    <div className='border-2 w-full h-96  flex justify-between items-center bg-red-600' style={{height: 600}}>
 <div className=' h-auto w-1/2 font-serif  ml-32'>
 <h1 className='font-bold text-4xl pb-10 text-bold row-2'>{title}</h1>
 <p className='pb-8 text-lg'> It is a long established fact that a reader will be distracted by the logic and understand
@@ -14,7 +14,7 @@ const Herosection = ({title}) => {
 </div>
 <div className=' h-auto w-1/2 font-serif  ml-32'>
 
-<Image src='/netfl.png' alt='logo pic' width={300} height={300} className="ml-16 mt-2 mb-2"/>
+<Image src='/netfl.png' alt='logo pic' width={300} height={300} className="ml-16 mt-1 mb-2"/>
 
 
 

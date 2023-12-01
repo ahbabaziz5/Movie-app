@@ -17,7 +17,7 @@ export default function Moviecard(currenEle) {
           </p>
         </div>
         <Link href={`/Movie/${id}`}> 
-<button className='border-1 bg-black text-white rounded-2xl w-32 h-9 text-center mt-2 hover:bg-white hover:text-black'> Read more</button></Link>
+<button className='border-2 bg-black text-white rounded-2xl w-32 h-9 text-center mt-2 hover:bg-white hover:text-black'> Read more</button></Link>
 
 
       </div>
