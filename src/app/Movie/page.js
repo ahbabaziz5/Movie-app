@@ -19,19 +19,16 @@ const main_data = data.titles
 console.log(data);
 
   return (
-    <>
-    
+    <div>
     <div className='text-2xl font-bold text-center'>
-      <h1 className='text-4xl pb-20 mt-10'>SERIES & MOVIES</h1></div>
-    <div className=" h-auto w-full grid gap-2 grid-cols-4 place-items-center">
-    {
-main_data.map((currenEle)=>{
-return <Moviecard  key={currenEle.id} {...currenEle}/>
-})
-
-    }
+        <h1 className='text-4xl pb-20 mt-10'>SERIES & MOVIES</h1>
     </div>
-</>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 place-items-center">
+        {main_data.map((currenEle) => {
+            return <Moviecard key={currenEle.id} {...currenEle} />;
+        })}
+    </div>
+</div>
   )
 }
 
