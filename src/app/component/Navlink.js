@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navlink = () => {
   return (
-    <div className='flex justify-between gap-8 mr-16 mt-6 bg-white '>
+    <div className='flex justify-between gap-8 mr-16  bg-white '>
     <div>
         <Link href={'./'} className='hover:text-red-500'>Home</Link>
     </div>
