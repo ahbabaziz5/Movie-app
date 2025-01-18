@@ -21,7 +21,7 @@ console.log(data);
   return (
     <div>
     <div className='text-2xl font-bold text-center'>
-        <h1 className='text-4xl pb-20 mt-10'>SERIES & MOVIES</h1>
+        <h1 className='text-4xl pb-20 mt-10'>SERIES & <span className='text-red-500'>MOVIES</span></h1>
     </div>
     <div className="flex flex-wrap justify-center gap-4">
   {main_data.map((currenEle) => {

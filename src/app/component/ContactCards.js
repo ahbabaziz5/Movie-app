@@ -8,7 +8,7 @@ import Head from 'next/head';
 const ContactCards = () => {
   return (
     <div className='sm:flex-wrap'>
-    <div className='font-bold text-4xl text-center mt-3 mb-6'><h1>Contact Us</h1></div>
+    <div className='font-bold text-4xl text-center mt-3 mb-6'><h1>Contact <span className='text-red-500'>Us</span></h1></div>
     <div className='flex flex-wrap justify-center'> 
         <div className=' border-2 m-4 sm:w-96 w-full h-60 text-center rounded-md'>
             <div className='flex justify-center pt-2 pb-2'><MdEmail size={40} color='red' /></div>
